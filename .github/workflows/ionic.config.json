@@ -1,0 +1,13 @@
+{
+  "name": "Challenge_fans",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://www.doqengine.com:5000/api/v01/"
+    }
+  ]
+}
